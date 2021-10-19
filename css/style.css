@@ -1,0 +1,221 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-image: url('../img/bg1.jpg');
+	background-size: cover;
+	height: 100vh;
+	color: white;
+}
+
+div {float: left;}
+/* Warnda dan Konten baris Ke-1 */
+.satu {
+	background-color: rgba(235, 186, 74, 0.77);
+	height: 100vh;
+	width: 32%;
+	margin: 0 0 0 0;
+}
+.satu h5 {
+	padding: 125% 0 0 70%;
+	text-align: center;
+}
+.btn1 {
+	padding: 10px 15px;
+	background-color: #A0A0A0;
+	margin: 0 0 0 75.5%;
+	color: white;
+	border: solid;
+	border-width: thin;
+	cursor: pointer;
+}
+/* Warnda dan Konten baris Ke-2 */
+.dua {
+	background-color: rgba(232, 160, 62, 0.77);
+	height: 100vh;
+	width: 12%;
+	position: absolute;
+	margin: 0 0 0 32%;
+}
+.dua h5 {
+	padding: 334% 0 0 3%;
+	text-align: center;
+}
+.btn2 {
+	padding: 10px 15px;
+	background-color: #A0A0A0;
+	margin: 11% 0 0 26%;
+	color: white;
+	border: solid;
+	border-width: thin;
+	cursor: pointer;
+}
+/* Warnda dan Konten baris Ke-3 */
+.tiga {
+	background-color: rgba(90, 198, 250, 0.77);
+	height: 100vh;
+	width: 12%;
+	position: absolute;
+	margin: 0 0 0 44%;
+}
+.tiga h5 {
+	padding: 335% 0 0 3%;
+	text-align: center;
+}
+.btn3 {
+	padding: 10px 15px;
+	background-color: #A0A0A0;
+	margin: 10% 0 0 26%;
+	color: white;
+	border: solid;
+	border-width: thin;
+	cursor: pointer;
+}
+/* Warnda dan Konten baris Ke-4 */
+.empat {
+	background-color: rgba(69, 156, 227, 0.77);
+	height: 100vh;
+	width: 12%;
+	position: absolute;
+	margin: 0 0 0 56%;
+}
+.empat h5 {
+	padding: 334% 0 0 3%;
+	text-align: center;
+}
+.btn4 {
+	padding: 10px 15px;
+	background-color: #A0A0A0;
+	margin: 11% 0 0 26%;
+	color: white;
+	border: solid;
+	border-width: thin;
+	cursor: pointer;
+}
+/* Warnda dan Konten baris Ke-5 */
+.lima {
+	background-color: rgba(227, 99, 77, 0.77);
+	height: 100vh;
+	width: 32%;
+	position: absolute;
+	margin: 0 80% 0 68%;
+}
+.lima h5 {
+	padding: 126% 70% 0 0%;
+	text-align: center;
+}
+.btn5 {
+	padding: 10px 15px;
+	background-color: #A0A0A0;
+	margin: 3% 0 0 6%;
+	color: white;
+	border: solid;
+	border-width: thin;
+	cursor: pointer;
+}
+
+/* isi dari konten */
+.konten {
+	background-color: gray;
+	height: 32%;
+	width: 100%;
+	position: fixed;
+	padding: 3% 0 0 24%;
+	margin: 10% 0 0 0;
+}
+.update {
+	padding: 10px 15px;
+	background-color: #A0A0A0;
+	color: white;
+	border: solid;
+	border-width: thin;
+	cursor: pointer;
+}
+.danger {
+	padding-right: 1%;
+	filter: invert(100%);
+	width: 2%;
+}
+
+/* Icon atau Logo dari Konten Warna */
+.icon {
+	margin: 98% 0 0 75%;
+	filter: invert(100%);
+	width: 20%;
+}
+.icon2 {
+	margin: 264% 0 0 23%;
+	filter: invert(100%);
+	width: 55%;
+	opacity: 1.0;
+}
+.icon3 {
+	margin: 265% 0 0 23%;
+	filter: invert(100%);
+	width: 55%;
+	opacity: 1.0;
+}
+.icon4 {
+	margin: 265% 0 0 23%;
+	filter: invert(100%);
+	width: 55%;
+	opacity: 1.0;
+}
+.icon5 {
+	margin: 100% 0 0 5%;
+	filter: invert(100%);
+	width: 20%;
+	opacity: 1.0;
+}
+
+/* SET RESPONSIVE HandPhone */
+@Media screen and (max-width: 768px) {
+	body {
+		width:100%;
+	}
+
+	.satu {
+		width: auto;
+		margin-bottom: auto;
+		float: none;
+		border-left: solid;
+		height: fit-content;
+	}
+	.dua {
+		width: auto;
+		margin-bottom: auto;
+		float: none;
+		border-left: solid;
+		height: fit-content;
+	}
+	.tiga {
+		width: auto;
+		margin-bottom: auto;
+		float: none;
+		border-left: solid;
+		height: fit-content;
+	}
+	.empat {
+		width: auto;
+		margin-bottom: auto;
+		float: none;
+		border-left: solid;
+		height: fit-content;
+	}
+	.lima {
+		width: auto;
+		margin-bottom: auto;
+		float: none;
+		border-left: solid;
+		height: fit-content;
+	}
+	.konten {
+		width: 50%;
+		margin-bottom: 10px;
+		margin-top: initial;
+	}
+
+}
